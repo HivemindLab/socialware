@@ -293,4 +293,6 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,visualstudiocode,bazel,elixir,python,jupyternotebooks
 
+*.svg.bkp
+*.svg.dtmp
 
