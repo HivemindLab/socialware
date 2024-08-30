@@ -18,10 +18,10 @@ jobs:
         elixir-version: '1.16'
         otp-version: '26.0'
 
-    - name: Install Hex and Rebar
-      run: |
-        mix local.hex --force
-        mix local.rebar --force
+    # - name: Install Hex and Rebar
+    #   run: |
+    #     mix local.hex --force
+    #     mix local.rebar --force
 
     - name: Install Dependencies
       run: mix deps.get
