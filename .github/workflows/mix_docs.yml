@@ -7,7 +7,7 @@ on:
 jobs:
   generate-docs:
     runs-on: ubuntu-latest
-    name: OTP ${{matrix.otp}} / Elixir ${{matrix.elixir}}
+    name: Setup OTP ${{matrix.otp}} / Elixir ${{matrix.elixir}}
     strategy:
       matrix:
         otp: ["26.0"]
@@ -22,10 +22,10 @@ jobs:
           path: |
             deps
             _build
+            doc
           key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
           restore-keys: |
             ${{ runner.os }}-mix-
-
 
       - name: Setup Elixir Enviornments
         uses: erlef/setup-beam@v1
