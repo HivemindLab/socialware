@@ -1,5 +1,5 @@
 # 以人为中心的操作系统：面向社会软件开发的群智平台
-Social Software and the Human-oriented Operation System
+H2OS: The decentralized platform for Socialware
 
 ## 1. 引言
 
