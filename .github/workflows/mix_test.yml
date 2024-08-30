@@ -1,4 +1,4 @@
-name: Push ExDoc GitHub Pages
+name: Run Mix Test
 
 on:
   pull_request_target:
@@ -14,9 +14,9 @@ on:
       - 'releases/**'
 
 jobs:
-  generate-docs:
+  run-tests:
     runs-on: ubuntu-latest
-    name: Setup OTP ${{matrix.otp}} / Elixir ${{matrix.elixir}}
+    name: Run tests on OTP ${{matrix.otp}} / Elixir ${{matrix.elixir}}
     strategy:
       matrix:
         otp: ["26.0"]
