@@ -1,15 +1,5 @@
----
-theme: beam # Other availble themes are "beam", "robo", "blue" and "gaia"
-layout: content # HTML template. Use "centered" for centered alignment.
-resource_dir: "." # Relative URLs are based on this directory.
----
-
-
 # 以人为中心的操作系统：面向社会软件开发的群智平台
-
 Social Software and the Human-oriented Operation System
-
-@(layout=centered)
 
 ## 1. 引言
 
@@ -33,7 +23,7 @@ Social Software and the Human-oriented Operation System
 
 ## 2. 社会软件（SocialWare）
 
-![socialware.drawio](C:\Users\SyncthingServiceAcct\default\3-writing\social-os\socialware.drawio.svg)
+![socialware.drawio](socialware.drawio.svg)
 
 
 ### 2.1 软件与人机交互
@@ -70,7 +60,7 @@ Socialware的核心是一个高度抽象的底层引擎——**基于代理的�
 
 
 
-![h2os.drawio](C:\Users\SyncthingServiceAcct\default\3-writing\social-os\h2os.drawio.svg)
+![h2os.drawio](./h2os.drawio.svg)
 
 
 
@@ -100,7 +90,7 @@ Socialware的核心是一个高度抽象的底层引擎——**基于代理的�
 
 ## 4. 架构设计
 
-![architecture.drawio](C:\Users\SyncthingServiceAcct\default\3-writing\social-os\architecture.drawio.svg)
+![architecture.drawio](./architecture.drawio.svg)
 
 ### 4.1 基于代理的事件驱动引擎（AEDE）
 
@@ -253,6 +243,22 @@ H2OS 和 Socialware 在人机共生中发挥关键作用。H2OS 利用 Socialwar
    - **大数据分析**：大数据分析技术可以为 H2OS 提供更加丰富和准确的用户数据和决策支持。例如，通过对大量用户数据的分析，系统可以更好地了解用户的需求和行为模式，从而优化日程安排和任务分配方案；同时，系统可以利用大数据分析技术预测用户的需求和行为趋势，提前做好准备，提高系统的响应速度和效率。
 
 总之，以人为中心的操作系统（H2OS）作为一种创新的技术解决方案，具有广阔的应用前景和社会影响。通过不断优化和完善技术架构，加强与社会软件的协同工作，解决潜在挑战，结合新兴技术，H2OS 将为用户提供更加高效、个性化的服务，推动社会的发展和进步。
+
+## Test Mermaid and Math
+
+$$
+E = MC^2
+$$
+
+```mermaid
+flowchart LR
+  A[Start] --Some text--> B(Continue)
+  B --> C{Evaluate}
+  C -- One --> D[Option 1]
+  C -- Two --> E[Option 2]
+  C -- Three --> F[fa:fa-car Option 3]
+
+```
 
 
 
