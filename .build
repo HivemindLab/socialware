@@ -1,7 +1,6 @@
 404.html
 api-reference.html
 assets/logo.svg
-design.html
 dist/handlebars.runtime-NWIB6V2M.js
 dist/handlebars.templates-K7URE6B4.js
 dist/html-YIPIRHGU.js
@@ -19,7 +18,8 @@ dist/lato-latin-ext-300-normal-VPGGJKJL.woff2
 dist/lato-latin-ext-400-normal-N27NCBWW.woff2
 dist/lato-latin-ext-700-normal-Q2L5DVMW.woff2
 dist/remixicon-NKANDIL5.woff2
-dist/search_data-DCF54C44.js
-dist/sidebar_items-CF7072D1.js
+dist/search_data-31A2AC81.js
+dist/sidebar_items-53AFC971.js
 index.html
+main.html
 search.html
