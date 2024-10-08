@@ -80,8 +80,8 @@ defmodule Socialware.MixProject do
     [
       source_url: @source_url,
       home_url: @source_url,
-      logo: "docs/logo.svg",
-      extras: ["docs/design.md"],
+      logo: "docs/imgs/logo.svg",
+      extras: ["docs/main.md"],
       before_closing_head_tag: &before_closing_head_tag/1,
       before_closing_body_tag: &before_closing_body_tag/1
     ]
